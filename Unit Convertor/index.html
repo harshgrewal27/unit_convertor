@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Unit Convertor</h1>
+        
+        <div class="items">
+            <select name="unit" id="unit">
+                <option value="Weight">Weight</option>
+                <option value="Length">Length</option>
+                <option value="Temperature">Temperature</option>
+            </select>
+            <div class="from">
+            <h2>From</h2>
+            <input type="text" name="from" id="from">
+            <select name="input" id="input" class="options"> 
+            </select>
+            </div>
+            <div class="to">
+            <h2>To</h2>
+            <input type="text" name="to" id="to">
+            <select name="output" id="output" class="options"> 
+            </select>
+            </div>
+            <button id="calculate">Calculate</button>
+            <button id="clear">Clear</button>
+
+        </div>
+        
+    </div>
+  
+
+      
+      <script src="script.js"></script>
+</body>
+</html>
